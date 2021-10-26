@@ -1,0 +1,150 @@
+body {
+    font-family: Roboto;
+    color:#212121;
+    ;
+}
+
+.knopka {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 3%;
+    background-color: #F5F4FA;
+    color: #212121;
+    
+
+}
+.knopka:hover {
+background-color: #2196F3;
+color: #FFFFFF;
+}
+
+.knopka:focus {
+    background-color: #2196F3;
+color: #FFFFFF;
+}
+
+.ssilka:hover {
+    color: #2196F3;
+}
+
+.ssilka:focus {
+    color: #2196F3;
+}
+.ssilka {
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    }
+.logo:hover {
+    color: #2196F3;
+}
+
+.logo:focus {
+    color: #2196F3;
+}
+
+.logo {
+    font-weight: 700;
+    font-family: Raleway;
+    font-style: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 3%;
+    }
+
+.knopka2 {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16;
+    line-height: 1.87;
+    letter-spacing: 6%;
+    background-color: #F5F4FA;
+    color: #212121;
+    
+}
+.knopka2:hover {
+background-color: #2196F3;
+color: #FFFFFF;
+}
+
+.knopka2:focus {
+    background-color: #2196F3;
+color: #FFFFFF;
+}
+
+.h3-1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 6%;
+}
+
+.p-1 {
+    color: #757575;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 3%;
+}
+
+.kontakti { 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 2%;
+    color: #757575;
+}
+
+.kontakti:hover {
+    color: #2196F3;
+}
+
+.kontakti:focus {
+    color: #2196F3;
+}
+
+.h1-1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 6%;
+    text-align: center;
+}
+
+.h3-2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+}
+
+.p-2 {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 3%;
+    color: #757575;
+}
+
+.h2-1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    text-align: center;
+}
+
+.h3-3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+}
+
+.p-3  {
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    color: #757575;
+}

@@ -1,6 +1,14 @@
+:root {
+    --brand-color: #2196F3;
+    --defoult-color: #212121;
+    --white-color:#FFFFFF;
+    --littlewhite-color:#F5F4FA ;
+    --gray-color: #757575;
+}
+
 body {
     font-family: Roboto;
-    color:#212121;
+    color:var(--defoult-color);
     ;
 }
 
@@ -9,51 +17,43 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    letter-spacing: 3%;
-    background-color: #F5F4FA;
-    color: #212121;
-    
+    background-color: var(--littlewhite-color);
+    color: var(--defoult-color);
+    letter-spacing: 0.03em;
+
 
 }
 .knopka:hover {
-background-color: #2196F3;
-color: #FFFFFF;
+background-color: var(--brand-color);
+color: var(--white-color);
 }
 
 .knopka:focus {
-    background-color: #2196F3;
-color: #FFFFFF;
+    background-color: var(--brand-color);
+color: var(--white-color);
 }
 
 .ssilka:hover {
-    color: #2196F3;
+    color: var(--brand-color);
 }
 
 .ssilka:focus {
-    color: #2196F3;
+    color: var(--brand-color);
 }
 .ssilka {
-    color: #212121;
+    color: var(--defoult-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     }
-.logo:hover {
-    color: #2196F3;
-}
-
-.logo:focus {
-    color: #2196F3;
-}
-
 .logo {
     font-weight: 700;
     font-family: Raleway;
-    font-style: bold;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 3%;
+    color: var(--defoult-color); 
+    letter-spacing: 0.03em;
     }
 
 .knopka2 {
@@ -61,90 +61,106 @@ color: #FFFFFF;
     font-weight: 700;
     font-size: 16;
     line-height: 1.87;
-    letter-spacing: 6%;
-    background-color: #F5F4FA;
-    color: #212121;
-    
+    background-color: var(--littlewhite-color);
+    color: var(--defoult-color);
+    letter-spacing: 0.06em;
 }
 .knopka2:hover {
-background-color: #2196F3;
-color: #FFFFFF;
+background-color: var(--brand-color);
+color: var(--white-color);
 }
 
 .knopka2:focus {
-    background-color: #2196F3;
-color: #FFFFFF;
+    background-color: var(--brand-color);
+color: var(--white-color);
 }
 
-.h3-1 {
+.zagolovok1 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
 }
 
-.p-1 {
-    color: #757575;
+.abzaz1 {
+    color: var(--gray-color);
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 
 .kontakti { 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 2%;
-    color: #757575;
+    color: var(--gray-color);
 }
 
 .kontakti:hover {
-    color: #2196F3;
+    color: var(--brand-color);
 }
 
 .kontakti:focus {
-    color: #2196F3;
+    color: var(--brand-color);
 }
 
-.h1-1 {
+.zagolovok2 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 6%;
     text-align: center;
+    letter-spacing: 0.06em;
 }
 
-.h3-2 {
+.zagolovok5 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
 
-.p-2 {
+.abzaz2 {
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 3%;
-    color: #757575;
+    color: var(--gray-color);
+    letter-spacing: 0.03em;
 }
 
-.h2-1 {
+.zagolovok3 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    letter-spacing: 3%;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
-.h3-3 {
+.zagolovok4 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
-.p-3  {
+.abzaz3  {
     font-size: 16px;
     line-height: 1.17;
-    letter-spacing: 3%;
-    color: #757575;
+    color: var(--gray-color);
+    letter-spacing: 0.03em;
+}
+
+.logo-web {
+    color: var(--brand-color);
+}
+
+a { 
+    text-decoration: none; 
+}
+
+li {
+    list-style-type: none; 
+}
+
+ul {
+    margin-left: 0; 
+    padding-left: 0; 
 }

@@ -4,6 +4,7 @@
     --white-color:#FFFFFF;
     --littlewhite-color:#F5F4FA ;
     --gray-color: #757575;
+    --footer-color:rgba(255, 255, 255, 0.6); 
 }
 
 body {
@@ -12,7 +13,7 @@ body {
     ;
 }
 
-.knopka {
+.knob {
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
@@ -20,27 +21,28 @@ body {
     background-color: var(--littlewhite-color);
     color: var(--defoult-color);
     letter-spacing: 0.03em;
+    font-family: Roboto;
 
 
 }
-.knopka:hover {
+.knob:hover {
 background-color: var(--brand-color);
 color: var(--white-color);
 }
 
-.knopka:focus {
+.knob:focus {
     background-color: var(--brand-color);
 color: var(--white-color);
 }
 
-.ssilka:hover {
+.ref:hover {
     color: var(--brand-color);
 }
 
-.ssilka:focus {
+.ref:focus {
     color: var(--brand-color);
 }
-.ssilka {
+.ref {
     color: var(--defoult-color);
     font-weight: 500;
     font-size: 14px;
@@ -56,77 +58,81 @@ color: var(--white-color);
     letter-spacing: 0.03em;
     }
 
-.knopka2 {
+.knob2 {
     cursor: pointer;
     font-weight: 700;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.87;
     background-color: var(--littlewhite-color);
     color: var(--defoult-color);
     letter-spacing: 0.06em;
+    font-family: Roboto;
 }
-.knopka2:hover {
+.knob2:hover {
 background-color: var(--brand-color);
 color: var(--white-color);
 }
 
-.knopka2:focus {
+.knob2:focus {
     background-color: var(--brand-color);
 color: var(--white-color);
 }
 
-.zagolovok1 {
+.headline1 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.abzaz1 {
+.paragraph1 {
     color: var(--gray-color);
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
 }
 
-.kontakti { 
+.contacts { 
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: var(--gray-color);
 }
 
-.kontakti:hover {
+.contacts:hover {
     color: var(--brand-color);
 }
 
-.kontakti:focus {
+.contacts:focus {
     color: var(--brand-color);
 }
 
-.zagolovok2 {
+.headline2 {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    color: var(--white-color);
+    text-transform: uppercase;
 }
 
-.zagolovok5 {
+.headline5 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
-.abzaz2 {
+.paragraph2 {
     font-size: 14px;
     line-height: 1.71;
     color: var(--gray-color);
     letter-spacing: 0.03em;
 }
 
-.zagolovok3 {
+.headline3 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -134,14 +140,14 @@ color: var(--white-color);
     letter-spacing: 0.03em;
 }
 
-.zagolovok4 {
+.headline4 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
     letter-spacing: 0.03em;
 }
 
-.abzaz3  {
+.paragraph3  {
     font-size: 16px;
     line-height: 1.17;
     color: var(--gray-color);
@@ -163,4 +169,44 @@ li {
 ul {
     margin-left: 0; 
     padding-left: 0; 
+}
+
+.contacts2 {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--white-color);
+}
+
+.contacts3 {
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--footer-color);
+}
+
+.ref-acctive {
+    color: var(--brand-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.logo2 {
+    font-weight: 700;
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--white-color); 
+    letter-spacing: 0.03em;
+
+}
+
+.contacts {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--gray-color);
 }
